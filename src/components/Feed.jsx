@@ -6,7 +6,8 @@ import { Sidebar, Videos } from "./";
 
 const Feed = () => {
 
-  const [selectedCategory, setSelectedCategory] = useState('New')
+  // const [selectedCategory, setSelectedCategory] = useState('New')
+  const [selectedCategory, setSelectedCategory] = useState([])
   const [videos, setVideos] = useState([])
 
   // console.log(selectedCategory)
@@ -27,13 +28,13 @@ const Feed = () => {
         />
         
         <Typography className="copyright" variant="body2" sx={{ mt: 1.5, color: "#fff", }}>
-          Copyright © 2022 DOUBLEDA
+          <span style={{color: "#70d575"}}>Copyright © 2022 DOUBLEDA</span>
         </Typography>
       </Box>
 
       <Box p={2} sx={{ overflowY: "auto", height: "90vh", flex: 2 }}>
         <Typography variant="h4" fontWeight="bold" mb={2} sx={{ color: "white" }}>
-          {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span>
+          {selectedCategory} <span style={{ color: "#70d575" }}>videos</span>
         </Typography>
 
         <Videos videos={videos}/>

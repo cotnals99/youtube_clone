@@ -7,6 +7,8 @@ const options = {
     // method: 'GET',
     // url: BASE_URL,
     params: {
+      regionCode:'KR',
+      q: '뉴스 경제 금융',
     //   relatedToVideoId: '7ghhRHRP6t4',
     //   part: 'id,snippet',
     //   type: 'video',

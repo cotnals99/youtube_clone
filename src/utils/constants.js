@@ -11,27 +11,45 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
+export const logo2 = '../components/logo2.png';
+
+// export const categories = [
+//   { title: "트렌드", name: 'New', icon: <HomeIcon />, },
+//   { title: "경제", name: 'Economy', icon: <AccountBalanceIcon />, },
+//   { title: "", name: 'JS Mastery', icon: <CodeIcon />, },
+//   { title: "코딩", name: 'Coding', icon: <CodeIcon />, },
+//   { title: "", name: 'ReactJS', icon: <CodeIcon />, },
+//   { title: "", name: 'NextJS', icon: <CodeIcon />, },
+//   { title: "음악", name: 'Music', icon: <MusicNoteIcon /> },
+//   { title: "교육", name: 'Education', icon: <SchoolIcon />, },
+//   { title: "", name: 'Podcast', icon: <GraphicEqIcon />, },
+//   { title: "영화", name: 'Movie', icon: <OndemandVideoIcon />, },
+//   { title: "게임", name: 'Gaming', icon: <SportsEsportsIcon />, },
+//   { title: "", name: 'Live', icon: <LiveTvIcon />, },
+//   { title: "스포츠", name: 'Sport', icon: <FitnessCenterIcon />, },
+//   { title: "패션", name: 'Fashion', icon: <CheckroomIcon />, },
+//   { title: "뷰티", name: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
+//   { title: "", name: 'Comedy', icon: <TheaterComedyIcon />, },
+//   { title: "", name: 'Gym', icon: <FitnessCenterIcon />, },
+//   { title: "암호화폐", name: 'Crypto', icon: <DeveloperModeIcon />, },
+// ];
+
 
 export const categories = [
-  { name: 'New', icon: <HomeIcon />, },
-  { name: 'JS Mastery', icon: <CodeIcon />, },
-  { name: 'Coding', icon: <CodeIcon />, },
-  { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
-  { name: 'Music', icon: <MusicNoteIcon /> },
-  { name: 'Education', icon: <SchoolIcon />, },
-  { name: 'Podcast', icon: <GraphicEqIcon />, },
-  { name: 'Movie', icon: <OndemandVideoIcon />, },
-  { name: 'Gaming', icon: <SportsEsportsIcon />, },
-  { name: 'Live', icon: <LiveTvIcon />, },
-  { name: 'Sport', icon: <FitnessCenterIcon />, },
-  { name: 'Fashion', icon: <CheckroomIcon />, },
-  { name: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
-  { name: 'Comedy', icon: <TheaterComedyIcon />, },
-  { name: 'Gym', icon: <FitnessCenterIcon />, },
-  { name: 'Crypto', icon: <DeveloperModeIcon />, },
+  { name: "메인", title: 'Main', icon: <HomeIcon />, },
+  { name: "경제", title: 'Economy', icon: <AccountBalanceIcon />, },
+  { name: "코딩", title: 'Coding', icon: <CodeIcon />, },
+  { name: "음악", title: 'Music', icon: <MusicNoteIcon /> },
+  { name: "교육", title: 'Education', icon: <SchoolIcon />, },
+  { name: "영화", title: 'Movie', icon: <OndemandVideoIcon />, },
+  { name: "게임", title: 'Gaming', icon: <SportsEsportsIcon />, },
+  { name: "스포츠", title: 'Sport', icon: <FitnessCenterIcon />, },
+  { name: "패션", title: 'Fashion', icon: <CheckroomIcon />, },
+  { name: "뷰티", title: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
+  { name: "암호화폐", title: 'Crypto', icon: <DeveloperModeIcon />, },
 ];
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
